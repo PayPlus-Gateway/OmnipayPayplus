@@ -1,0 +1,24 @@
+{
+    "name": "payplus-gateway/omnipay-payplus",
+    "type": "library",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Omnipay\\Payplus\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Zev Wittix",
+            "email": "zev@wittix.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "omnipay/common": "^3"
+    }
+}
